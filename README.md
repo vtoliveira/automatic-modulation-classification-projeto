@@ -12,3 +12,5 @@ Os dados foram gerados pelo Dr. Baochang Zhang e podem ser encontrados em seu re
 ![image.png](attachment:image.png)
 
 Onde y(t) é o sinal recebido, x(t) o sinal modulado, n(t) ruído AWGN e c(t) representa as especificações do canal (fading, etc). Assim, temos ao total 22000 dados com 963 amostras e o label de modulação que ele representa, sendo de 0-10 representando 2ASK, 2FSK, 2PSK, 4ASK, 4FSK, 4PSK, 8ASK, 8FSK, 8PSK, 16QAM e 64QAM, respectivamente. Para a mesma situação, foram gerados também dados variando-se a SNR, com valores de 0, 4, 8, 12, 16 e 20 dB.
+
+Iremos implementar três modelos: SVM, Redes MLP e Redes Convolucionais. Para as Redes Neurais, iremos utilizar a biblioteca pytorch.
